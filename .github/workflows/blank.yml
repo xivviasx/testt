@@ -3,7 +3,7 @@ name: Build Flutter APK
 on:
   push:
     branches:
-      - main  # Uruchamiaj tylko dla gałęzi "main"
+      - master  # Uruchamiaj tylko dla gałęzi "main"
   pull_request:
 
 jobs:
